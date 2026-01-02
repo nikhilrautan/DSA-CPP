@@ -1,6 +1,6 @@
-//2.find an element in our array
-#include<iostream>
+#include <iostream>
 using namespace std;
+
     int main()
     {
      int arr[3][4]={1,2,3,4,5,6,7,8};
