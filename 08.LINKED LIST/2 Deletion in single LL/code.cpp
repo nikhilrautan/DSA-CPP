@@ -106,7 +106,7 @@ int main()
 
     deleteNode(Head, curr, prev, 3, 1);
     deleteNode(Head, curr, prev, 1, 1);
-
+    
     while (Head)
     {
         cout << Head->data << " ";
