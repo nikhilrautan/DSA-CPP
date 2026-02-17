@@ -14,5 +14,6 @@ int main()
     cin >> n;
 
     cout << "Fibonacci number is: " << fib(n);
+
     return 0;
 }
