@@ -85,7 +85,6 @@ ListNode *middleNode(ListNode *head)
     }
     return slow;
 }
-
 // =======================
 // MAIN FUNCTION
 // =======================
