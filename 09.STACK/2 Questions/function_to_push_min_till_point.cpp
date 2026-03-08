@@ -36,7 +36,7 @@ int main()
     stack<int> s = _push(arr, n);
 
     cout << "Minimum element at each pop: ";
-    _getMinAtPop(s);
+    _getMinAtPop(s) ;
 
     return 0;
 }
