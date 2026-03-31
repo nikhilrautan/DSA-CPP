@@ -6,8 +6,8 @@ using namespace std;
 //Make the array beautiful
 vector<int> makeBeautiful(vector<int> arr)
 {
-    stack<int> s;
 
+    stack<int> s;
     for (int i = 0; i < arr.size(); i++)
     {
         if (s.empty())
