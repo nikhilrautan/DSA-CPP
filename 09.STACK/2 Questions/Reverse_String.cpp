@@ -26,13 +26,11 @@ void reverseString(vector<char> &s)
 int main()
 {
     vector<char> s = {'h', 'e', 'l', 'l', 'o'};
-
     reverseString(s);
-
     cout << "Reversed string: ";
     for (char c : s)
     {
-        cout << c;
+        cout << c; // Reverse string return kr denge
     }
 
     return 0;
