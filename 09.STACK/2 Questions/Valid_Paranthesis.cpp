@@ -27,6 +27,7 @@ bool checkStack(string str)
 }
 
 // Method 2: Using Counter (Optimal)
+// in this method we will use counter not stack
 bool checkCount(string str)
 {
     int left = 0;
