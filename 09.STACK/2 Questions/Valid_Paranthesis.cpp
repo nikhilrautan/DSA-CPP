@@ -12,7 +12,9 @@ bool checkStack(string str)
     {
         if (str[i] == '(')
             s.push(str[i]);
-        else
+        else  
+           // in the if part we are handling '(' so in the else part will check the ')'
+          // Everything else automatically goes to else
         {
             if (s.empty())
                 return false;
