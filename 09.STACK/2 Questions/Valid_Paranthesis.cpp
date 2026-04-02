@@ -32,6 +32,7 @@ bool checkCount(string str)
 {
     int left = 0;
 
+    
     for (int i = 0; i < str.size(); i++)
     {
         if (str[i] == '(')
