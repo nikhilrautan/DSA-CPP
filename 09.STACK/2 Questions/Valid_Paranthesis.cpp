@@ -30,9 +30,9 @@ bool checkStack(string str)
 // in this method we will use counter not stack
 bool checkCount(string str)
 {
+
     int left = 0;
 
-    
     for (int i = 0; i < str.size(); i++)
     {
         if (str[i] == '(')
