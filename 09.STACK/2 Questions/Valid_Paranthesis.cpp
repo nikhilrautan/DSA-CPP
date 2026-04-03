@@ -26,6 +26,7 @@ bool checkStack(string str)
     return s.empty();
 }
 
+
 // Method 2: Using Counter (Optimal)
 // in this method we will use counter not stack
 bool checkCount(string str)
