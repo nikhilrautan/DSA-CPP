@@ -3,8 +3,8 @@ using namespace std;
 
 int main()
 {
-    int a = 10;
 
+    int a = 10;
     // Printing address of variable a
     cout << &a << endl;
 
