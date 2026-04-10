@@ -15,6 +15,7 @@ int main()
     // Size of pointer (not size of int)
     cout << sizeof(ptr) << endl;
 
+    
     // Dereferencing pointer to get value
     cout << *ptr << endl;
 
