@@ -8,7 +8,6 @@ int main()
     // Printing address of variable a
     cout << &a << endl;
 
-    
     // Pointer storing address of a
     int *ptr = &a;
     cout << ptr << endl;
