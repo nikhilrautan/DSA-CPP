@@ -1,9 +1,8 @@
 #include<iostream>
 using namespace std;
-
+// In this question we are finding the fibonacci series till the num.
 int main()
 {
-
     int num;
     cout << "Enter the number : ";
     cin >> num;
