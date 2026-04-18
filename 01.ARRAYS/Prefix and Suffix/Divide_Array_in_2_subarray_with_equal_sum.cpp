@@ -22,13 +22,11 @@ bool divide(vector<int> arr)
         if (total_sum == 2 * prefix)
             return 1;
     }
-
     return 0;
 }  
 int main()
 {
     vector<int> arr = {1, 2, 3, 3};
-
     if (divide(arr))
         cout << "Yes, can be divided into 2 subarrays with equal sum" << endl;
     else
