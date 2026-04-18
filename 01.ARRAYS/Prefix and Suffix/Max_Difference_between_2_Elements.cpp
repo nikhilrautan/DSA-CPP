@@ -8,7 +8,7 @@ using namespace std;
 int maxSubarrayDiff(int arr[], int n)
 {
     int max = INT_MIN, suffix = arr[n - 1];
-    for (int i = n - 2; i >= 0; i--)
+    for (int i = n - 2; i >= 0; i--) // start n-2 se kia kyuki suffix m hum phle se wo last element ki value store kr k rkhenge
     {
         int diff = suffix - arr[i];
         if (diff > max)
@@ -21,7 +21,7 @@ int maxSubarrayDiff(int arr[], int n)
         }
     }
 
-    return max;
+    return max; // to hmara biggest difference is array se hum return kra denge
 }
 
 int main()
