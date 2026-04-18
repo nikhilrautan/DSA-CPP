@@ -18,7 +18,7 @@ bool divide(vector<int> arr)
     for (int i = 0; i < n - 1; i++) // isko n-1 times chlaya kyuki wo last wale element k baad hum nhi tod skte array ko further.
     {
         prefix += arr[i];
-        int ans = total_sum - prefix;
+       // int ans = total_sum - prefix; (isko humne seedhe if k andr hi rkh diya)
         if (total_sum == 2 * prefix)
             return 1;
     }
