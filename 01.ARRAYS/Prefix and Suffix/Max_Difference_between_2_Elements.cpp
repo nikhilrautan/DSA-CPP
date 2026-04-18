@@ -2,7 +2,9 @@
 #include <limits.h>
 using namespace std;
 
-// Q3. Max Difference between 2 Element.
+//Max Difference between 2 Element.
+//Given an array of integers, the task is to find the maximum difference between any two elements such that larger element appears after the smaller number.  We mainly need to find maximum difference in an inversion (larger before smaller)
+//Note: If no such pair exists, return -1.
 int maxSubarrayDiff(int arr[], int n)
 {
     int max = INT_MIN, suffix = arr[n - 1];
