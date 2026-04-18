@@ -5,6 +5,7 @@
 using namespace std;
 
 // Q1. Divide array in 2 subarray with equal sum.
+ // in this question we have to divide the array in such a way(contiguous way) that they both are equal when added.
 bool divide(vector<int> arr)
 {
     int prefix = 0, total_sum = 0, n = arr.size();
@@ -17,14 +18,13 @@ bool divide(vector<int> arr)
     for (int i = 0; i < n - 1; i++)
     {
         prefix += arr[i];
-        // int ans = total_sum - prefix;
+        int ans = total_sum - prefix;
         if (total_sum == 2 * prefix)
             return 1;
     }
 
     return 0;
-}
-
+}  
 int main()
 {
     vector<int> arr = {1, 2, 3, 3};
