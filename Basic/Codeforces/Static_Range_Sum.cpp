@@ -25,6 +25,7 @@ Concept Used: Prefix Sum
 Instead of calculating sum for every query (which is slow),
 we preprocess the array using prefix sum.
 
+
 Prefix sum array:
 pre_sum[i] = sum of first i elements
 
