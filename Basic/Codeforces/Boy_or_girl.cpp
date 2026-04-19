@@ -11,7 +11,6 @@ int main() {
     for(char c : s) {
         st.insert(c);
     }
-
     if(st.size() % 2 == 0)
         cout << "CHAT WITH HER!";
     else
