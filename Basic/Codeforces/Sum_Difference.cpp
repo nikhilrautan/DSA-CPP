@@ -26,7 +26,6 @@ int main() {
             // Increase frequency
             mp[val]++;
         }
-
         cout << count << endl;
     }
     return 0;
