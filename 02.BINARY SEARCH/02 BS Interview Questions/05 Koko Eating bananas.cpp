@@ -3,6 +3,7 @@
 #include <algorithm>
 using namespace std;
 
+
 // Q2. Koko Eating Bananas.
 int minEatingSpeed(vector<int> &piles, int h)
 {
