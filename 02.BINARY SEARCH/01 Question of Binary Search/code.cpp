@@ -16,7 +16,6 @@ int main() {
     for(int i = 0; i < 5; i++) {
         cout<<arr[i]<<" ";
     }
-
     // To find min element of the array
     int ans = arr[0];
     for(int i = 0; i < 5; i++) {
