@@ -8,6 +8,7 @@ int frog(int index,vector<int>&a, vector<int>&dp)
 
     int cost1 = frog(index-1,a,dp) +abs(a[index] -a[index-1]);
     int cost2 = frog(index-2,a,dp) +abs(a[index] -a[index-2]);
+
     return dp[index]= min(cost1,cost2);
 }
 int main()
