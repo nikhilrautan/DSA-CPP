@@ -12,7 +12,6 @@ void print(int n)
     print(n-2);
 }
 int main()
-{
-    int n=10;
+{    int n=10;
     print(n);
 }
