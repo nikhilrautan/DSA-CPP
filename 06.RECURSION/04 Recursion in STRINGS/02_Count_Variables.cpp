@@ -13,7 +13,6 @@ int countVowels(string str, int index)
     else
         return countVowels(str, index - 1);
 }
-
 int main()
 {
     string str = "NikhilRautan";
