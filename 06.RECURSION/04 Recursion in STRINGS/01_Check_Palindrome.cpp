@@ -19,6 +19,5 @@ int main()
         cout << "Palindrome";
     else
         cout << "Not Palindrome";
-
     return 0;
 }
