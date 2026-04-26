@@ -15,7 +15,6 @@ bool checkPal(string str, int start, int end)
 int main()
 {
     string str = "madam";
-
     if (checkPal(str, 0, str.length() - 1))
         cout << "Palindrome";
     else
