@@ -7,7 +7,7 @@ void printSubsetSum(int arr[], int index, int n, int sum)
     // Base case: when all elements are processed
     if (index == n)
     {
-        cout << sum << endl;   // Print current subset sum
+        cout << sum << endl;  // Print current subset sum
         return;
     }
 
