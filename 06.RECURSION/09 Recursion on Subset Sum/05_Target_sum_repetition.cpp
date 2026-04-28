@@ -21,6 +21,5 @@ int main()
     int arr[] = {1, 2, 3};
     int n = 3;
     int target = 4;
-
     cout << subsum(arr, 0, n, target);
 }
