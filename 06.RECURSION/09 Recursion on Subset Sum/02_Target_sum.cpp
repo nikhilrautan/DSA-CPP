@@ -4,7 +4,7 @@ using namespace std;
 // Function to check if subset with given target exists
 bool findTarget(int arr[], int index, int n, int target)
 {
-    // If target becomes 0, we found a valid subset
+   // If target becomes 0, we found a valid subset
     if (target == 0)
         return true;
     // If we reach end or target becomes negative
