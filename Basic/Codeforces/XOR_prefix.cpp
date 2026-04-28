@@ -10,8 +10,7 @@ int main()
     vector<int>prefix(n+1);
     for(int i=1;i<=n;i++) prefix[i]=prefix[i-1]^a[i-1];
     while(q--)
-    {
-        int l,r;
+    {   int l,r;
         cin>>l,r;
         cout<<(prefix[r]^prefix[l-1])<<"\n";
     }
