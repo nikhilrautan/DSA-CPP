@@ -66,35 +66,6 @@ int main()
     // cout << Head->next << endl;
 
     int arr[] = {2, 4, 5, 7, 9};
-
-//____________________INSERTION___________________________________________________________________________________________________________________
-
-    // // Insert the node at beginning
-
-    // for (int i = 0; i < 5; i++)
-    // {
-    //     // Linked List doesn't exist
-    //     if (Head == NULL)
-    //     {
-    //         Head = new Node(arr[i]);
-    //     }
-    //     // Linked List exist
-    //     else
-    //     {
-    //         Node *temp;
-    //         temp = new Node(arr[i]);
-    //         temp->next = Head;
-    //         Head = temp;
-    //     }
-    // }
-
-    // // Print the value
-    // Node *temp = Head;
-    // while(temp != NULL){
-    //     cout<<temp->data<<" ";
-    //     temp = temp->next;
-    // }
-
     //________________________________________________________________________________________________________________________________
 
     // Insert the Node at the end of the Linked List
