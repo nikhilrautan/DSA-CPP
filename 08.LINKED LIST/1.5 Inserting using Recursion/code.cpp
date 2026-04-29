@@ -12,7 +12,6 @@ public:
         next =NULL;
     }
 };
-
 // 1 Inserting at the End (One after Another)
 // Node *createLinkedList(int arr[],int index , int size)
 // {
