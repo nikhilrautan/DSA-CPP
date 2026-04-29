@@ -27,6 +27,5 @@ int main()
     {
         cout << c; // Reverse string return kr denge
     }
-
     return 0;
 }
