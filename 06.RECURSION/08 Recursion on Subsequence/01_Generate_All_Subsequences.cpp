@@ -13,7 +13,6 @@ void subseq(int arr[], int index, int n,
         ans.push_back(temp);   // Store current subsequence
         return;
     }
-
     // Include current element
     temp.push_back(arr[index]);
     subseq(arr, index + 1, n, ans, temp);
