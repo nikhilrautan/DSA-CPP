@@ -7,7 +7,7 @@ void subseq(int arr[], int index, int n,
             vector<vector<int>> &ans,
             vector<int> &temp)
 {
-    // Base case: when index reaches end
+      // Base case: when index reaches end
     if (index == n)
     {
         ans.push_back(temp);   // Store current subsequence
