@@ -23,7 +23,6 @@ void subseq(int arr[], int index, int n,
     // Exclude current element
     subseq(arr, index + 1, n, ans, temp);
 }
-
 int main()
 {
     int arr[] = {1, 2, 3};
