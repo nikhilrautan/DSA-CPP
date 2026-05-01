@@ -29,7 +29,6 @@ int main()
     int n = 3;
     vector<vector<int>> ans;
     vector<int> temp;
-
     subseq(arr, 0, n, ans, temp);
 
     // Print all subsequences
