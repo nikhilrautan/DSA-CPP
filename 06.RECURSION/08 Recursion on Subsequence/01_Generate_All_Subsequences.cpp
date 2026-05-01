@@ -27,7 +27,6 @@ int main()
 {
     int arr[] = {1, 2, 3};
     int n = 3;
-
     vector<vector<int>> ans;
     vector<int> temp;
 
