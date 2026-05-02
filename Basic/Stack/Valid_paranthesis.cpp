@@ -20,7 +20,6 @@ bool checkStack(string str)
 int main()
 {
    string str = "(()())";
-
     cout << "Using Stack Method: ";
     if (checkStack(str))
         cout << "Valid\n";
