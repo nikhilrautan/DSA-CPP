@@ -62,7 +62,6 @@ int main()
 
     int k = 2;
     head = deleteK(head, k);
-
     printList(head);
     return 0;
 }
