@@ -59,7 +59,6 @@ int main()
     head->next->next = new Node(3);
     head->next->next->next = new Node(4);
     head->next->next->next->next = new Node(5);
-
     int k = 2;
     head = deleteK(head, k);
     printList(head);
