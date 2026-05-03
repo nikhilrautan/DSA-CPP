@@ -52,7 +52,6 @@ void printList(Node *head)
         head = head->next;
     }
 }
-
 int main()
 {
     Node *head = new Node(1);
