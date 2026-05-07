@@ -29,7 +29,6 @@ Node* BinaryTree()
     // Right side creation
     cout << "Enter the right child of " << x << ": ";
     temp->right = BinaryTree();
-
     return temp;
 }
 
