@@ -5,14 +5,12 @@ class Node {
 public:
     int data;
     Node *left, *right;
-
     Node(int value)
     {
         left = right = NULL;
         data = value;
     }
 };
-
 Node* BinaryTree()
 {
     int x;
