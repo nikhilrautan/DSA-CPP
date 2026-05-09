@@ -11,6 +11,7 @@ public:
         data = value;
     }
 };
+
 void Preorder(Node *root)
 {
    if(root ==NULL) return;
