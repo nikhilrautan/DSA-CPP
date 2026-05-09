@@ -14,8 +14,8 @@ public:
 void Preorder(Node *root)
 {
    if(root ==NULL) return;
-    cout<<root->data;
-    Preorder(root->left);
+     cout<<root->data;
+     Preorder(root->left);
     Preorder(root->right);
 }
 int main()
