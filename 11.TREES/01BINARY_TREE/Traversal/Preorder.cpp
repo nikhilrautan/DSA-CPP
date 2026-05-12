@@ -11,6 +11,7 @@ public:
     }
 };
 
+
 void Preorder(Node *root)
 {
    if(root ==NULL) return;
