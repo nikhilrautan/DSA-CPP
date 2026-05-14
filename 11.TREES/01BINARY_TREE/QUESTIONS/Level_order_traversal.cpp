@@ -16,10 +16,12 @@ public:
         right = NULL;
     }
 };
+
 // Function for level order traversal
 vector<int> levelOrder(Node* root) {
     vector<int> ans;
 
+    // if tree is empty
     if(root == NULL)
         return ans;
 
@@ -27,14 +29,19 @@ vector<int> levelOrder(Node* root) {
     q.push(root);
 
     while(!q.empty()) {
+
+        // take front node
         Node* temp = q.front();
         q.pop();
 
+        // store node value
         ans.push_back(temp->data);
 
+        // push left child
         if(temp->left)
             q.push(temp->left);
 
+        // push right child
         if(temp->right)
             q.push(temp->right);
     }
@@ -44,6 +51,7 @@ vector<int> levelOrder(Node* root) {
 
 int main() {
 
+    // creating binary tree
     Node* root = new Node(1);
     root->left = new Node(2);
     root->right = new Node(3);
@@ -52,6 +60,7 @@ int main() {
 
     vector<int> ans = levelOrder(root);
 
+    // printing answer
     for(int x : ans) {
         cout << x << " ";
     }
