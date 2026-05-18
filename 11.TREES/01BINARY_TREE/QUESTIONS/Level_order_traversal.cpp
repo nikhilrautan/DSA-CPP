@@ -6,6 +6,7 @@ using namespace std;
 // Node of binary tree 
 class Node {
 public:
+
     int data;
     Node* left;
     Node* right;
