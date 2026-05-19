@@ -1,6 +1,7 @@
 #include <iostream>
 #include <queue>
 using namespace std;
+
 // print elements withouut removing 
 int main()
 {
@@ -21,7 +22,7 @@ int main()
         q.pop();
     }
 
-    
+
     // ab elements present hai ki nhii ? dekhne k liye size print krado
     cout<<q.size()<<endl;
 }
