@@ -15,7 +15,6 @@ public:
         right = NULL;
     }
 };
-
 // Function for level order traversal
 vector<int> levelOrder(Node* root) {
     vector<int> ans;
