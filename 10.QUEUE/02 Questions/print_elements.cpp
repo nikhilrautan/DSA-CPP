@@ -5,7 +5,6 @@ using namespace std;
 // print elements withouut removing 
 int main()
 {
-    
     queue<int> q;
     q.push(5);
     q.push(15);
