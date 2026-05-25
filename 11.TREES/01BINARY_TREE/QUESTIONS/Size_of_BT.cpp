@@ -24,7 +24,6 @@ public:
         if(root == NULL)
             return 0;
 
-            
         // count current node + left subtree + right subtree
         return 1 + getSize(root->left) + getSize(root->right);
     }
