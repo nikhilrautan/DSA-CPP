@@ -13,8 +13,10 @@ struct Node {
         left = right = NULL;
     }
 };
- void CountLeaf(Node* root)
+ int CountLeaf(Node* root)
  {
     if(root==NULL) return 0;
+    if(!root->left && !root->right)
+    return 1;
 
  }
