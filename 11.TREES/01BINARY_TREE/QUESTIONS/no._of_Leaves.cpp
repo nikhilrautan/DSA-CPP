@@ -18,5 +18,10 @@ struct Node {
     if(root==NULL) return 0;
     if(!root->left && !root->right)
     return 1;
-
+    
+    return (CountLeaf(root->left) + CountLeaf(root->right));
+ }
+ int main()
+ {
+    
  }
