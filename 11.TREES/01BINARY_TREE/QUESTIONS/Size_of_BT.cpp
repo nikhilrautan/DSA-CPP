@@ -33,6 +33,5 @@ int main() {
     root->right = new Node(3);
 
     cout << getSize(root);
-
     return 0;
 }
