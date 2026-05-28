@@ -13,3 +13,7 @@ struct Node {
         left = right = NULL;
     }
 };
+ void Count(Leaf(Node* root))
+ {
+    
+ }
