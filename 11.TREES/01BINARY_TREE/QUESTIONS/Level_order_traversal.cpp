@@ -46,7 +46,6 @@ vector<int> levelOrder(Node* root) {
 
     return ans;
 }
-
 int main() {
 
     // creating binary tree
