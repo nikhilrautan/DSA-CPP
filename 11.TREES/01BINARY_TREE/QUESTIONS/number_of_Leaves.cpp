@@ -19,9 +19,15 @@ struct Node {
     if(!root->left && !root->right)
     return 1;
     
-    return (CountLeaf(root->left) + CountLeaf(root->right));
+    return CountLeaf(root->left) + CountLeaf(root->right);
  }
  int main()
  {
-    
+      // Creating tree
+    Node* root = new Node(1);
+    root->left = new Node(2);
+    root->right = new Node(3);
+
+    cout << CountLeaf(root)<<endl;
+    return 0;
  }
