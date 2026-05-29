@@ -23,6 +23,7 @@ struct Node {
  }
  int main()
  {
+    
       // Creating tree
     Node* root = new Node(1);
     root->left = new Node(2);
