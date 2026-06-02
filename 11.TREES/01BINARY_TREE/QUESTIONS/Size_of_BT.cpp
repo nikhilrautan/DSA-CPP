@@ -25,6 +25,7 @@ int getSize(Node* root) {
              + getSize(root->right);
 }
 int main() {
+    
 
     // Creating tree
     Node* root = new Node(1);
@@ -33,6 +34,6 @@ int main() {
     root->right = new Node(3);
 
     cout << getSize(root);
-    
+
     return 0;
 }
