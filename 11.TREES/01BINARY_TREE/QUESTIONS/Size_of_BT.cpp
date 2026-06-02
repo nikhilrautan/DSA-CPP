@@ -25,7 +25,6 @@ int getSize(Node* root) {
 }
 // main function
 int main() {
-    
     // Creating tree
     Node* root = new Node(1);
 
