@@ -23,6 +23,7 @@ int getSize(Node* root) {
 
     return 1 + getSize(root->left) + getSize(root->right);
 }
+
 // main function
 int main() {
     // Creating tree
