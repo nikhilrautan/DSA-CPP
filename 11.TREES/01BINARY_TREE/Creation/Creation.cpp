@@ -12,6 +12,7 @@ public:
     }
 };
 
+
 Node* BinaryTree()
 {
     int x;
