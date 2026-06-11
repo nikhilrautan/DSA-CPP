@@ -31,6 +31,7 @@ Node* BinaryTree()
     cout << "Enter the right child of " << x << ": ";
     temp->right = BinaryTree();
     return temp;
+    
 }
 
 int main()
