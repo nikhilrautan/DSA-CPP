@@ -31,13 +31,12 @@ Node* BinaryTree()
     cout << "Enter the right child of " << x << ": ";
     temp->right = BinaryTree();
     return temp;
-    
+
 }
 
 int main()
 {
     cout << "Enter the root node: ";
-
     Node *root;
     root = BinaryTree();
 
