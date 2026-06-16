@@ -11,7 +11,6 @@ public:
         data = value;
     }
 };
-
 Node* BinaryTree()
 {
     int x;
