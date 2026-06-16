@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// create class node
 class Node {
 public:
     int data;
