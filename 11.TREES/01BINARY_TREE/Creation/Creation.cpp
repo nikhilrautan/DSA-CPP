@@ -23,7 +23,6 @@ Node* BinaryTree()
         return NULL;
 
     Node* temp = new Node(x);
-
     // Left side creation
     cout << "Enter the left child of " << x << ": ";
     temp->left = BinaryTree();
