@@ -17,12 +17,11 @@ int main()
 
     while(n--)
     {
-        
+
         cout<<q.front()<<" ";
         q.push(q.front());
         q.pop();
     }
-
 
     // ab elements present hai ki nhii ? dekhne k liye size print krado
     cout<<q.size()<<endl;
