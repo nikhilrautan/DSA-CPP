@@ -36,5 +36,6 @@ int main()
     cout << "Enter the root node: ";
     Node *root;
     root = BinaryTree();
+    
     return 0;
 }
