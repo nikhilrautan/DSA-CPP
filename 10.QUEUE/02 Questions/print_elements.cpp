@@ -14,7 +14,6 @@ int main()
 
     //value print karao
     int n = q.size();
-
     while(n--)
     {
         cout<<q.front()<<" ";
