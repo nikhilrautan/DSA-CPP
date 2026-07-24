@@ -17,7 +17,6 @@ int main()
 
     while(n--)
     {
-        
         cout<<q.front()<<" ";
         q.push(q.front());
         q.pop();
