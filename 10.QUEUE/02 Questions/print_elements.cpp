@@ -14,7 +14,7 @@ int main()
 
     //value print karao
     int n = q.size();
-    
+
     while(n--)
     {
         cout<<q.front()<<" ";
@@ -22,6 +22,7 @@ int main()
         q.pop();
     }
 
+    
     // ab elements present hai ki nhii ? dekhne k liye size print krado
     cout<<q.size()<<endl;
 }
