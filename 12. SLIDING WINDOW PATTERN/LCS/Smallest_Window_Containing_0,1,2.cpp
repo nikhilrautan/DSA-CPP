@@ -8,6 +8,7 @@ using namespace std;
 // Sliding window technique
 int smallestSubstring(string S)
 {
+    
     int n = S.size();
     int ans = n + 1;
 
