@@ -3,6 +3,7 @@
 #include <string>
 using namespace std;
 
+
 // Smallest window containing 0, 1 and 2
 // Sliding window technique
 int smallestSubstring(string S)
